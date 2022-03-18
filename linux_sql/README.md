@@ -1,4 +1,4 @@
-Note: You are NOT allowed to copy any content from the scrum board, including text, diagrams, code, etc. Your Github will be visible and shared with Jarvis clients, so you have to create unique content that impresses your future boss😎.
+NEED TO EDIT
 
 # Introduction
 (about 150-200 words)
