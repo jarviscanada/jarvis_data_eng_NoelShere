@@ -39,7 +39,7 @@ case $cmd in
   start|stop)
   #check instance status; exit 1 if container has not been created
   if [ $container_status -ne 0 ]; then
-    echo 'no container found!'
+    echo 'no container found'
     exit 1
   fi
 

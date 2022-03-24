@@ -12,16 +12,4 @@ l2_cache=$(echo "$lscpu_out"  | egrep "^L2 cache:" | awk '{print $3}' | xargs)
 total_mem=$(echo "$meminfo"  | egrep "^MemTotal:" | awk '{print $2}' | xargs)
 timestamp=$(date '+%Y-%m-%d %H:%M:%S')
 
-#test
-
-echo $hostname
-echo $cpu_number
-echo $cpu_architecture
-echo $cpu_model
-echo $cpu_mhz
-echo $l2_cache
-echo $total_mem
-echo $timestamp
-
-
 exit 0

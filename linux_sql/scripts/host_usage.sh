@@ -15,11 +15,5 @@ cpu_kernel=$(echo "$meminfo"  | egrep "^KernelStack:" | awk '{print $2}' | xargs
 disk_io=$(vmstat -d | awk 'NR==3 {print $10}' | xargs)
 disk_available=$(echo "$diskii" | awk 'NR==3 {print $4}' | xargs)
 
-#test
-echo $disk_io
-echo $memory_free
-echo $cpu_idle
-echo $cpu_kernel
-echo $disk_available
 
 exit 0
