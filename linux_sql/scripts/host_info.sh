@@ -24,4 +24,4 @@ echo $total_mem
 echo $timestamp
 
 
-exit 1
+exit 0

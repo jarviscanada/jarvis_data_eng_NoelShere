@@ -22,4 +22,4 @@ echo $cpu_idle
 echo $cpu_kernel
 echo $disk_available
 
-exit 1
+exit 0
