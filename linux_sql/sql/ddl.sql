@@ -10,6 +10,7 @@ CREATE TABLE IF NOT EXITS PUBLIC.host_info
 	total_mem INTEGER NOT NULL,
 	"timestamp" TIMESTAMP NOT NULL
 );
+
 CREATE TABLE IF NOT EXISTS PUBLIC.host_usage
 (
     "timestamp" TIMESTAMP NOT NULL,
