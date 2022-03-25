@@ -1,4 +1,7 @@
-CREATE TABLE IF NOT EXITS PUBLIC.host_info
+
+\c host_agent;
+
+CREATE TABLE IF NOT EXISTS PUBLIC.host_info
 (
     id SERIAL PRIMARY KEY NOT NULL,
 	hostname VARCHAR (255) NOT NULL UNIQUE,
@@ -14,10 +17,10 @@ CREATE TABLE IF NOT EXITS PUBLIC.host_info
 CREATE TABLE IF NOT EXISTS PUBLIC.host_usage
 (
     "timestamp" TIMESTAMP NOT NULL,
-    host_id SERIAL NOT NULL REFERENCES,
+    host_id SERIAL NOT NULL,
     memory_free INTEGER NOT NULL,
     cpu_idle INTEGER NOT NULL,
-    cpu_kernel INTEGER,
-    disk_io INTEGER,
+    cpu_kernel INTEGER NOT NULL,
+    disk_io INTEGER NOT NULL,
     disk_available INTEGER NOT NULL
 );
