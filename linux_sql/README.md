@@ -6,12 +6,32 @@ Discuss the design of the project. What does this project/product do? Who are th
 
 # Quick Start
 Use markdown code block for your quick-start commands
-- Start a psql instance using psql_docker.sh
-- Create tables using ddl.sql
-- Insert hardware specs data into the DB using host_info.sh
-- Insert hardware usage data into the DB using host_usage.sh
-- Crontab setup
-
+1. Start a psql instance using psql_docker.sh
+```
+./scripts/psql_docker.sh start|stop|create [db_username][db_password]
+```
+```
+./scripts/psql_docker.sh create db_username db_password
+```
+```
+./scripts/psql_docker.sh start
+```
+2. Create tables using ddl.sql
+```
+psql -h localhost -U postgres -d host_agent -f ddl.sql
+```
+3.Insert hardware specs data into the DB using host_info.sh
+```
+bash scripts/host_info.sh localhost 5432 host_agent postgres password
+```
+4.Insert hardware usage data into the DB using host_usage.sh
+```
+bash scripts/host_usage.sh localhost 5432 host_agent postgres password
+```
+5.Crontab setup
+```
+```
+crontab -e
 # Implemenation
 Discuss how you implement the project.
 ## Architecture
