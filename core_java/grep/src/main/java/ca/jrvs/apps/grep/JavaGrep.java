@@ -56,6 +56,6 @@ public interface JavaGrep {
 
     void setOutFile();
 
-    Void setOutFile(String outFile);
+    void setOutFile(String outFile);
 }
 
