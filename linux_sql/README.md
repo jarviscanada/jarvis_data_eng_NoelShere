@@ -33,7 +33,7 @@ bash scripts/host_info.sh localhost 5432 host_agent postgres password
 bash scripts/host_usage.sh localhost 5432 host_agent postgres password
 ```
 5.Crontab setup
-```
+
 ```
 crontab -e
 ```
