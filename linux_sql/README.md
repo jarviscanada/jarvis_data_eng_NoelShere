@@ -56,9 +56,9 @@ Shell script description and usage (use markdown code block for script usage)
 ## Database Modeling
 Describe the schema of each table using markdown table syntax (do not put any sql code)
 - `host_info` 
--  | Name | Type | Description |
+-  | Name  | Type | Description |
 -  | ----- | ---- | ----------- |
--  | id    | primary key | Is uniqe |
+-  
 -  
 -  
 - `host_usage`
