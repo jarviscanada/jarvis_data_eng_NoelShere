@@ -70,6 +70,7 @@ Describe the schema of each table using markdown table syntax (do not put any sq
 | timestamp | TIMESTAMP | stores the time and data |
 
 - `host_usage`
+
 | Name  | Type | 
 | ----- | ---- | 
 | host_id    | Foreign KEY |
