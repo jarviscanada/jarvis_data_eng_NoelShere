@@ -59,7 +59,17 @@ Describe the schema of each table using markdown table syntax (do not put any sq
 - 
 | Name  | Type | Description |
 | ----- | ---- | ----------- |
-| id    | PRIMARY KEY     | This is the host id |
+| id    | PRIMARY KEY     | uniqe key,connects to foreign key |
+| hostname | VARCHAR | Stores name of the host |
+| cpu_number | INTERGER | stores the number of cpu |
+| cpu_architecture | VARCHAR | stores cpu architecture eg.64bit |
+| cpu_model | VARCHAR | stores model of the cpu |
+| cpu_mhz | FLOAT | stores the CPU clock speed |
+| L2_cache | VARCHAR | stores the cache |
+| total_mem | INTERGER | stores the total memory |
+| timestamp | TIMESTAMP | stores the time and data |
+
+
 
 - `host_usage`
 
