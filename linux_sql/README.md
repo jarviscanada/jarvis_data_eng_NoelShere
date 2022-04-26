@@ -69,9 +69,15 @@ Describe the schema of each table using markdown table syntax (do not put any sq
 | total_mem | INTERGER | stores the total memory |
 | timestamp | TIMESTAMP | stores the time and data |
 
-
-
 - `host_usage`
+| Name  | Type | 
+| ----- | ---- | 
+| host_id    | Foreign KEY |
+| memory_free   | INTEGER | 
+| cpu_idle    | INTERGER |
+| cpu_kernel    | INTEGER | 
+| disk_io    | INTEGER | 
+| disk_available    | INTEGER | 
 
 # Test
 How did you test your bash scripts and SQL queries? What was the result?
