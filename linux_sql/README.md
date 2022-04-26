@@ -43,7 +43,7 @@ crontab -e
 # Implemenation
 Discuss how you implement the project.
 ## Architecture
-Draw a cluster diagram with three Linux hosts, a DB, and agents (use draw.io website). Image must be saved to the `assets` directory.
+![image]()
 
 
 
