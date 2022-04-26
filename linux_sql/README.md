@@ -3,11 +3,6 @@ NEED TO EDIT
 # Introduction
 The Jarvis Linux Cluster Administration (LCA) team manages a Linux cluster of 10 nodes/servers running CentOS 7. These servers are internally connected through a switch and able to communicate through internal IPv4 addresses.
 
-# The Architecture
-1) A psql instance is used to contain all the data
-2) The Bash agent is able to insert the usage and info into a psql instance
-3) The Host_info and Host_usage collect hardware and CUP/memory infomation and inserts it into the database.
-
 # Quick Start
 Use markdown code block for your quick-start commands
 1. Start a psql instance using psql_docker.sh
