@@ -36,8 +36,11 @@ crontab -e
 * * * * * bash /<file path>/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log
 ```
 # Implemenation
-Discuss how you implement the project.
+1) A psql instance is used to contain all the data
+2) The Bash agent is able to insert the usage and info into a psql instance
+3) The Host_info and Host_usage collect hardware and CUP/memory infomation and inserts it into the database.
 ## Architecture
+
 ![image](https://github.com/jarviscanada/jarvis_data_eng_NoelShere/blob/develop/linux_sql/arc.png)
 
 
@@ -52,7 +55,9 @@ Shell script description and usage (use markdown code block for script usage)
 
 ## Database Modeling
 Describe the schema of each table using markdown table syntax (do not put any sql code)
-- `host_info`
+- `host_info` 
+-  | Name| TYPE | Description|
+-  
 - `host_usage`
 
 # Test
