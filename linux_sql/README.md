@@ -43,7 +43,7 @@ crontab -e
 # Implemenation
 Discuss how you implement the project.
 ## Architecture
-![image]()
+![image](https://github.com/jarviscanada/jarvis_data_eng_NoelShere/blob/develop/linux_sql/arc.png)
 
 
 
