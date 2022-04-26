@@ -1,8 +1,12 @@
 NEED TO EDIT
 
 # Introduction
-(about 150-200 words)
-Discuss the design of the project. What does this project/product do? Who are the users? What are the technologies you have used? (e.g. bash, docker, git, etc..)
+The Jarvis Linux Cluster Administration (LCA) team manages a Linux cluster of 10 nodes/servers running CentOS 7. These servers are internally connected through a switch and able to communicate through internal IPv4 addresses.
+
+# The Architecture
+1) A psql instance is used to contain all the data
+2) The Bash agent is able to insert the usage and info into a psql instance
+3) The Host_info and Host_usage collect hardware and CUP/memory infomation and inserts it into the database.
 
 # Quick Start
 Use markdown code block for your quick-start commands
@@ -32,6 +36,9 @@ bash scripts/host_usage.sh localhost 5432 host_agent postgres password
 ```
 ```
 crontab -e
+```
+* * * * * bash /<file path>/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log
+```
 # Implemenation
 Discuss how you implement the project.
 ## Architecture
