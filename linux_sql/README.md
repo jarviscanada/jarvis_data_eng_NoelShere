@@ -83,11 +83,12 @@ Describe the schema of each table using markdown table syntax (do not put any sq
 # Test
 How did you test your bash scripts and SQL queries? What was the result?
 
-1)Ihe usage files (host_info.sh & host_usage.sh) were tested on the bash command line.
+1)The usage files (host_info.sh & host_usage.sh) were tested on the bash command line.
+
 2) docker file was tested buy running it and 
+
 3) ddl.sql script was tested when creating the database in postgres then applying the "SELECT" function in host_agent which would retrieve table data.
-4) 
-The docker file was tested through 
+
 # Deployment
 The application is deployed through the gcp instance running CentOS 7.
 
