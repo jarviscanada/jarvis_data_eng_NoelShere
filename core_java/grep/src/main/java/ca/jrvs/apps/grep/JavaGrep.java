@@ -1,10 +1,11 @@
 package ca.jrvs.apps.grep;
 
-import jdk.nashorn.internal.runtime.regexp.joni.Regex;
+
 
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
+import java.util.Queue;
 
 public interface JavaGrep {
 
@@ -28,11 +29,17 @@ public interface JavaGrep {
      *
      * Explain FileReader, BufferReader, and character encoding
      *
-     * @param inputFile file to be read
+     *  file to be read
      * @return line
      * @throws IllegalArgumentException if a given inputFile is not a file
      * */
 
+     List<String> readLines(File inputFile);
+    /**
+     * check if a line contains the regex pattern (passed by user)
+     * @param line
+     * @return true if there is a match
+     */
      boolean containsPattern(String line);
     /**
      * Write lnes to a file
