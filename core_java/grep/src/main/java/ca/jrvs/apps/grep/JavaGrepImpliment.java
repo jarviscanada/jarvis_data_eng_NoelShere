@@ -52,14 +52,16 @@ public class JavaGrepImpliment implements JavaGrep {
 
 
         List<String> Lines = new ArrayList<>();
-        List<File> FileIN = listFiles(getRootPath()); // READ & return all the lines in file
+        List<File> FilePath = listFiles(getRootPath()); // List file path
 
-        for(File F: FileIN) // for each
+        for(File F: FilePath) // for each
         {
             for(String line: readLines(F))
             {
                 if(containsPattern(line)) // if true add the matched line
+
                     Lines.add(line); // append all the lines to listFiles
+
             }
         }
         System.out.println(Lines);
@@ -83,6 +85,7 @@ public class JavaGrepImpliment implements JavaGrep {
             ex.printStackTrace(); // need to change to log
         }
 
+        //System.out.println(Read);
         return Read;
     }
 
@@ -127,7 +130,15 @@ public class JavaGrepImpliment implements JavaGrep {
     public void writeToFile(List<String> lines) throws IOException {
 
         BufferedWriter bw = new BufferedWriter(new FileWriter(getOutFile()));
-        bw.write(String.valueOf(lines));
+
+
+
+        for(String line : lines){
+            bw.write(line);
+
+            bw.newLine();
+        }
+
         bw.close();
 
     }
