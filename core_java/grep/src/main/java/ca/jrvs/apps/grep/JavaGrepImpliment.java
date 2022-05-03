@@ -1,11 +1,8 @@
 package ca.jrvs.apps.grep;
+
 import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+
 
 public class JavaGrepImpliment implements JavaGrep {
 
@@ -22,12 +19,12 @@ public class JavaGrepImpliment implements JavaGrep {
             throw new IllegalArgumentException("Usage: Javagrep regex rootpath outfile");
         }
 
-        //BasicConfigurator.configure();
-
         JavaGrepImpliment javaGrepImp = new JavaGrepImpliment(); // set JavaGrepImpliment class object
-        javaGrepImp.setRegex(args[0]); // arg 1
-        javaGrepImp.setRootPath(args[1]); // arg 2
-        javaGrepImp.setOutFile(args[2]); // arg 3
+        javaGrepImp.setRegex(args[0]);
+        javaGrepImp.setRootPath(args[1]);
+        javaGrepImp.setOutFile(args[2]);
+
+       // BasicConfigurator.configure();
 
         try{
             javaGrepImp.process(); // try to run process() function, if it doesnt catch and print error
@@ -64,7 +61,7 @@ public class JavaGrepImpliment implements JavaGrep {
 
             }
         }
-        System.out.println(Lines);
+
         writeToFile(Lines);
     }
 
@@ -85,7 +82,7 @@ public class JavaGrepImpliment implements JavaGrep {
             ex.printStackTrace(); // need to change to log
         }
 
-        //System.out.println(Read);
+
         return Read;
     }
 
@@ -110,7 +107,7 @@ public class JavaGrepImpliment implements JavaGrep {
                 fileList.add(currentFile);
             }
         }
-        System.out.println(fileList);
+
         return fileList;
 
     }
