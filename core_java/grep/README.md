@@ -1,9 +1,26 @@
 # Introduction
-(50-100 words)
+A Java app that mimics Linux grep command which allows users to search matching strings from files.
+
+
 Discuss the design of each app. What does the app do? What technologies have you used? (e.g. core java, libraries, lambda, IDE, docker, etc..)
 
 # Quick Start
 How to use your apps?
+1) Build and run program on Intellij
+2) 
+3) Clean maven and compile 
+```
+mvn clean compile package
+```
+5) check jar file
+```
+jar -tf target/grep-1.0-SNAPSHOT.jar
+```
+7) To run program specify jar file | java File | aruguments
+
+```
+java -cp target/grep-1.0-SNAPSHOT.jar ca.jrvs.apps.grep.JavaGrepImpliment .*Romeo.*Juliet.* ./data ./out/grep.out
+```
 
 #Implemenation
 ## Pseudocode
