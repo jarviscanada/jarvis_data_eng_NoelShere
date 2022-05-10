@@ -49,7 +49,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](http
 
 
 ## Miscellaneous
-- (Hobby) Android Developer - [[Playstore] (https://play.google.com/store/apps/dev?id=5271353457553738769)]
+- (Hobby) Android Developer - [[Playstore](https://play.google.com/store/apps/dev?id=5271353457553738769)]
 - Traveling 
 - Gym
 
