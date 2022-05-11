@@ -11,7 +11,7 @@ How to use your apps?
 ```
 mvn clean compile package
 ```
-3) check jar file
+3) Check jar file
 ```
 jar -tf target/grep-1.0-SNAPSHOT.jar
 ```
@@ -34,6 +34,10 @@ readLines():
 writeToFile(): 
 
 ## Pseudocode
+1) Check for all required arguments 
+2) If no errors calls the process function 
+3) Process gets the root path of the file including all the lines and calls readLines function and returns each line. That text is sent to a function called containsPattern wich returns T/F, and appends the line/text to an arrayList. At the end of the process function the arraylist is sent to function writetofile.
+4) writetofile writes the line of text to the file.
 
 
 ## Performance Issue
