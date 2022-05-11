@@ -21,7 +21,7 @@ jar -tf target/grep-1.0-SNAPSHOT.jar
 java -cp target/grep-1.0-SNAPSHOT.jar ca.jrvs.apps.grep.JavaGrepImpliment .*Romeo.*Juliet.* ./data ./out/grep.out
 ```
 
-#Implemenation
+# Implemenation
 
 process(): 
 
