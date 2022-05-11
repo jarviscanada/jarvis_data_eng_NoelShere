@@ -24,9 +24,13 @@ java -cp target/grep-1.0-SNAPSHOT.jar ca.jrvs.apps.grep.JavaGrepImpliment .*Rome
 #Implemenation
 
 process(): 
+
 listFiles(): 
+
 containsPattern(): 
+
 readLines(): 
+
 writeToFile(): 
 
 ## Pseudocode
@@ -39,13 +43,17 @@ Discuss the memory issue and how would you fix it
 
 # Test
 How did you test your application manually? (e.g. prepare sample data, run some test cases manually, compare result)
+
 The grep app can be tested by compling the project in Intellij. 
 
 # Deployment
 How you dockerize your app for easier distribution?
+
 The grep app was deployed using docker.
 
 # Improvement
 List three things you can improve in this project.
+
 minimize white spaces 
+
 use Lambda and Stream API
