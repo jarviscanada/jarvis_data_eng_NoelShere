@@ -42,6 +42,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_NoelShere]
 
 ## Education
 **Seneca College (Graduated December 2020), Computer Programming Diploma 
+
 **NPower Canada (2021 – Dec 2021) Junior Data Analyst Program  
 
 
