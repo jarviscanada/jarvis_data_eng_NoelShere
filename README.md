@@ -1,13 +1,13 @@
 # Noel Shere . Jarvis Consulting
-Hi, my name is Noel, I have a diploma in computer programming from Seneca college. I love to develop applications and websites. I recently developed an android application that helps users practice G1 road rules and signs. I love to collaborate with people and work towards a common goal. I am currently a trainee at Jarvis Consulting and I am looking forward to work for a company where I can learn and grow.
+Hi, my name is Noel. I have a diploma in computer programming from Seneca college. Throughout my education, I have come across many different assignments and projects that have allowed me to gain and grow my knowledge. This has also enabled me to solve and tackle difficult challenges. I love to develop applications and websites.  I love to collaborate with people and work towards a common goal. I have recently joined Jarvis as a Data Engineer trainee to improve on my skillset and familiarize myself with real-world projects to continue to grow and apply knowledge throughout the program.
 
 ## Skills
 
-**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
+**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git,
 
-**Competent:** HTML, JavaScript, Python, 
+**Competent:** HTML/CSS, JavaScript, Python, Debugging 
 
-**Familiar:** Docker, Bash, AWS 
+**Familiar:** Docker, Bash, AWS, Google Ads, Google Firebase, Android Studio
 
 ## Jarvis Projects
 
@@ -30,12 +30,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_NoelShere]
 **Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/spark)]: Not Started
 
 **Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/cloud_devops)]: Not Started
-
-
-## Highlighted Projects
-**Web app for resturant** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem. 
-
-**Machine Learning**: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
 
 
 ## Professional Experiences
