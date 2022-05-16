@@ -11,7 +11,7 @@ Hi, my name is Noel, I have a diploma in computer programming from Seneca colleg
 
 ## Jarvis Projects
 
-Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](https://github.com/jarviscanada/jarvis_data_eng_NoelShere)
+Project source code: [https://github.com/jarviscanada/jarvis_data_eng_NoelShere](https://github.com/jarviscanada/jarvis_data_eng_NoelShere)
 
 
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NoelShere/tree/develop/linux_sql)]: Designed and implemented a linux cluster agent to preserve and monitor real-time data of nodes running on CentOS. Application performs real-time data collection of hardware specifications and CPU memory usage. Created a Data Definition Language (DDL) script to hold specified data into tables used in the database. Modified 'host_info.sh' and 'host_usage.sh' to retrieve the necessary and insert it to the database.
