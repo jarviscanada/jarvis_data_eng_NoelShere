@@ -5,7 +5,7 @@ Hi, my name is Noel, I have a diploma in Computer Programming from Seneca Colleg
 
 **Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
 
-**Competent:** HTML, JavaScript, Python, 
+**Competent:** HTML, JavaScript, Python 
 
 **Familiar:** Docker, Bash, AWS 
 
