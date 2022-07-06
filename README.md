@@ -1,5 +1,5 @@
 # Noel Shere . Jarvis Consulting
-Hi, my name is Noel, I have a diploma in Computer Programming from Seneca College. Computer Programming diploma has given me ample opportunity work on different assignments and projects which allowed me to gain and grow my knowledge. This has empowered me to solve and tackle difficult challenges. I have developed keen interest and love to develop applications and websites. I am a team player and can collaborate with team members to work towards a common goal. I have recently joined Jarvis as a Data Engineer trainee to improve on my skillset and familiarize myself with real-world projects to continue to grow and apply knowledge throughout the program.
+Hi, my name is Noel, I have a diploma in Computer Programming from Seneca College. The Computer Programming diploma has given me the opportunity to work on different assignments and projects which allowed me to gain and grow my knowledge. Further, this has also empowered me to solve and tackle difficult challenges. I am passionate about developing applications and websites. I am a team player and can collaborate with team members to work towards a common goal. I have recently joined Jarvis as a Data Engineer trainee to improve on my skillset and familiarize myself with real-world projects to continue to grow and apply knowledge throughout the program.
 
 ## Skills
 
