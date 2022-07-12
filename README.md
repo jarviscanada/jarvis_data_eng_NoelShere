@@ -25,7 +25,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_NoelShere]
 ## Highlighted Projects
 
 
-- Road Rules Practice Test Application [[GitHub](https://github.com/NoelShere/Android-Studio-Development---G1-Practice-Test-Application))]: This project was created using Java in Android Studio. The user interface was built using constraint layouts, relative layouts, scroll views, buttons, and images. To have the best user experience possible, animated button clicks and layout transitions are implemented. On the programming side of things, arrays and double arrays are used to store the question and answers. I have used methods to update the Q&A when an answer is clicked. Lastly, implemented Google Firebase for sending internal notifications right to the application and uploaded the application to the google play store. 
+- Road Rules Practice Test Application [[GitHub](https://github.com/NoelShere/Android-Studio-Development---G1-Practice-Test-Application))]: This project was created using Java in Android Studio. The user interface was built using constraint layouts, relative layouts, scroll views, buttons, and images. To have the best user experience possible, animated button clicks and layout transitions are implemented. On the programming side of things, arrays and double arrays are used to store the question and answers. I have used methods to update the Q&A when an answer is clicked. Lastly, implemented Google Firebase for sending internal notifications right to the application and uploaded the application to the Google Play Store. 
 
 ## Professional Experiences
 
