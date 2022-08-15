@@ -14,8 +14,8 @@ I am a recent graduate with a diploma in Computer Programming from Seneca Colleg
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_NoelShere](https://github.com/jarviscanada/jarvis_data_eng_NoelShere/tree/Profile)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NoelShere/tree/develop/linux_sql)]: Designed and implemented a Linux cluster agent to preserve and monitor real-time data of nodes running on CentOS 7. The application performs real-time data collection of hardware specifications and CPU memory usage. Data is collected and stored in a Postgresql database and is provisioned using Docker. Crontab is used to periodically to collect resource usage data. Lastly, SQL is used to query the collected data.   
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NoelShere/tree/develop/core_java)]:
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NoelShere/tree/Profile/linux_sql)]: Designed and implemented a Linux cluster agent to preserve and monitor real-time data of nodes running on CentOS 7. The application performs real-time data collection of hardware specifications and CPU memory usage. Data is collected and stored in a Postgresql database and is provisioned using Docker. Crontab is used to periodically to collect resource usage data. Lastly, SQL is used to query the collected data.   
+**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NoelShere/tree/Profile/core_java)]:
       
 - Grep App: Created a java application that mimics the Linux 'grep' command to search and retrieve matching strings from a given file. Technologies used for this project are Maven, Java, and Docker. Implementation of the backend uses encapsulation and an interface to provide a flexible, organized implementation of the program. Deployment is done by dockerizing the app which includes building an image locally, running the docker container, and pushing it to Docker Hub to verify the image.
 
