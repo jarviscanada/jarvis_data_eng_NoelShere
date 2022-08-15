@@ -12,7 +12,7 @@ I am a recent graduate with a diploma in Computer Programming from Seneca Colleg
 ## Jarvis Projects
 
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_NoelShere](https://github.com/jarviscanada/jarvis_data_eng_NoelShere/tree/Profile)
-
+ 
 
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NoelShere/tree/develop/linux_sql)]: Designed and implemented a Linux cluster agent to preserve and monitor real-time data of nodes running on CentOS 7. The application performs real-time data collection of hardware specifications and CPU memory usage. Data is collected and stored in a Postgresql database and is provisioned using Docker. Crontab is used to periodically to collect resource usage data. Lastly, SQL is used to query the collected data.   
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NoelShere/tree/develop/core_java)]:
